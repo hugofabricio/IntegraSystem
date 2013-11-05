@@ -1,0 +1,198 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "v1.0.6",
+        "version_normalized": "1.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "b3bd071ea114a57212c75aa6a2eef5cfe0cc798f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/b3bd071ea114a57212c75aa6a2eef5cfe0cc798f",
+            "reference": "b3bd071ea114a57212c75aa6a2eef5cfe0cc798f",
+            "shasum": ""
+        },
+        "replace": {
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2013-08-20 04:37:09",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Composer\\Installers\\Installer",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama",
+                "role": "Developer"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "TYPO3 CMS",
+            "TYPO3 Flow",
+            "TYPO3 Neos",
+            "agl",
+            "cakephp",
+            "codeigniter",
+            "drupal",
+            "fuelphp",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "li3",
+            "lithium",
+            "mako",
+            "modulework",
+            "phpbb",
+            "ppi",
+            "silverstripe",
+            "symfony",
+            "wordpress",
+            "zend"
+        ]
+    },
+    {
+        "name": "mjohnson/transit",
+        "version": "1.4.4",
+        "version_normalized": "1.4.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/milesj/transit.git",
+            "reference": "5ec7ecb99cce1998cb7c8c46837b5f662424d766"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/milesj/transit/zipball/5ec7ecb99cce1998cb7c8c46837b5f662424d766",
+            "reference": "5ec7ecb99cce1998cb7c8c46837b5f662424d766",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-fileinfo": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "aws/aws-sdk-php": "~2.2",
+            "ext-exif": "*"
+        },
+        "suggest": {
+            "aws/aws-sdk-php": "~2.2",
+            "ext-exif": "Extract exif data from images",
+            "ext-gd": "Enable the GD library for image transforming"
+        },
+        "time": "2013-09-15 08:42:19",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Transit": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Miles Johnson",
+                "homepage": "http://milesj.me"
+            }
+        ],
+        "description": "A file uploader with support for validation, image transformation and remote transportation.",
+        "homepage": "http://milesj.me/code/php/transit",
+        "keywords": [
+            "application",
+            "archive",
+            "audio",
+            "exif",
+            "file",
+            "glacier",
+            "image",
+            "importer",
+            "s3",
+            "text",
+            "transformer",
+            "transit",
+            "transporter",
+            "uploader",
+            "validator",
+            "video"
+        ]
+    },
+    {
+        "name": "mjohnson/uploader",
+        "version": "4.3.5",
+        "version_normalized": "4.3.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/milesj/uploader.git",
+            "reference": "c5b3085b7cc00c0491c39e72e0c143cabd6312a4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/milesj/uploader/zipball/c5b3085b7cc00c0491c39e72e0c143cabd6312a4",
+            "reference": "c5b3085b7cc00c0491c39e72e0c143cabd6312a4",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "*",
+            "ext-curl": "*",
+            "ext-fileinfo": "*",
+            "ext-mbstring": "*",
+            "mjohnson/transit": "~1.4",
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "aws/aws-sdk-php": "~2.2",
+            "ext-exif": "Extract exif data from images",
+            "ext-gd": "Enable the GD library for image transforming"
+        },
+        "time": "2013-10-01 02:23:09",
+        "type": "cakephp-plugin",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Miles Johnson",
+                "homepage": "http://milesj.me"
+            }
+        ],
+        "description": "File uploader and validation plugin for CakePHP.",
+        "homepage": "http://milesj.me/code/cakephp/uploader",
+        "keywords": [
+            "attachment",
+            "cakephp",
+            "file",
+            "plugin",
+            "uploader",
+            "validation"
+        ]
+    }
+]

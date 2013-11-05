@@ -1,0 +1,64 @@
+/*!
+ * Theme
+ */
+
+/*------------------------------------------------------------------
+    Global
+------------------------------------------------------------------*/
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+.section {
+	padding-top: 170px;
+	height: 100% !important;
+}
+
+.section header, .section article {
+	margin-bottom: 30px;
+}
+
+.c1 {
+	color: #006ab3;
+}
+
+/* Backgrounds */
+.b1 {
+	background-color: #fff;
+}
+
+.b2 {
+	background-color: #ffbe00;
+}
+
+/*------------------------------------------------------------------
+    Content
+------------------------------------------------------------------*/
+
+/* Navbar */
+.navbar{border-color:#004f86;background-color:#006ab3;text-transform:uppercase;}
+
+.media-heading {
+	font-weight: 600;
+}
+
+.media p {
+	font-size: 1.5em
+}
+
+/* Footer */
+footer {
+	padding: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width:400px) {
+	.section {
+		padding-top: 150px;
+	}
+
+	#ranking header {
+		margin-bottom: 20px;
+	}
+}
